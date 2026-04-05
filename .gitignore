@@ -1,0 +1,22 @@
+# Python e Ambiente Virtual
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos Gigantes (Modelos)
+models/
+extensions/*/models/
+*.safetensors
+*.ckpt
+*.pth
+
+# Fotos e Resultados Pessoais
+outputs/
+log/
+stable-diffusion-webui-forge/outputs/
+
+# Configurações Locais
+config.json
+ui-config.json
+params.txt
+webui-user.sh
