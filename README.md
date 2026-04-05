@@ -24,12 +24,12 @@ source venv/bin/activate
 
 Install dependencies:
 pip install -r requirements.txt
+create a folder on root directory named: models
 
 Launch:
 ./webui.sh
 
-=================================================================================================================================================================
-# Stable Diffusion WebUI Forge
+=============================================================================
 
 Stable Diffusion WebUI Forge is a platform on top of [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) (based on [Gradio](https://www.gradio.app/) <a href='https://github.com/gradio-app/gradio'><img src='https://img.shields.io/github/stars/gradio-app/gradio'></a>) to make development easier, optimize resource management, speed up inference, and study experimental features.
 
