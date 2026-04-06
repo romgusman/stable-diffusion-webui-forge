@@ -9,15 +9,14 @@ curl https://pyenv.run | bash
 pyenv install 3.10.6
 pyenv local 3.10.6
 python -V
-# Should return: Python 3.10.6
+(Should return: Python 3.10.6)
 
 Clone the repository:
 git clone https://github.com/romgusman/stable-diffusion-webui-forge
 
 Create a virtual environment:
 cd stable-diffusion-webui-forge
-python3 -m venv venv
-# Or python -m venv venv
+python3 -m venv venv (or python -m venv venv)
 
 Activate the environment:
 source venv/bin/activate
